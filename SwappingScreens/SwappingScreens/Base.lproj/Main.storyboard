@@ -98,8 +98,7 @@
                                 <rect key="frame" x="131" y="318" width="113" height="30"/>
                                 <state key="normal" title="Load 3rd Screen"/>
                                 <connections>
-                                    <action selector="load3rdScreen:" destination="52m-n3-lbt" eventType="touchUpInside" id="fS7-xf-36Z"/>
-                                    <action selector="load3rdScreenPressed:" destination="52m-n3-lbt" eventType="touchUpInside" id="cuS-fw-28k"/>
+                                    <action selector="load3rdScreenPressed:" destination="52m-n3-lbt" eventType="touchUpInside" id="vOW-M3-axr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -133,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ey5-df-dXJ">
-                                <rect key="frame" x="60" y="41" width="255" height="21"/>
+                                <rect key="frame" x="33" y="42" width="309" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>

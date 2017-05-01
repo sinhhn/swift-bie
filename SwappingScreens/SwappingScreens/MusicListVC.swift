@@ -19,9 +19,10 @@ class MusicListVC: UIViewController {
     @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+
     @IBAction func load3rdScreenPressed(_ sender: Any) {
-        let songTitle = "Quit Playing Games With My Heart"
-        performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
+        let songTilte = "Nothing Gonna Change My Love For You"
+        performSegue(withIdentifier: "PlaySongVC", sender: songTilte)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
