@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE75B4F61EB9F8D900CD43B7 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE75B4F51EB9F8D900CD43B7 /* Minecraft.ttf */; };
 		CEE558AB1EB8BF4C006D6D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE558AA1EB8BF4C006D6D0D /* AppDelegate.swift */; };
 		CEE558AD1EB8BF4C006D6D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE558AC1EB8BF4C006D6D0D /* ViewController.swift */; };
 		CEE558B01EB8BF4C006D6D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE558AE1EB8BF4C006D6D0D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE75B4F51EB9F8D900CD43B7 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		CEE558A71EB8BF4C006D6D0D /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE558AA1EB8BF4C006D6D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE558AC1EB8BF4C006D6D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		CEE558A91EB8BF4C006D6D0D /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CE75B4F51EB9F8D900CD43B7 /* Minecraft.ttf */,
 				CEE558AA1EB8BF4C006D6D0D /* AppDelegate.swift */,
 				CEE558AC1EB8BF4C006D6D0D /* ViewController.swift */,
 				CEE558AE1EB8BF4C006D6D0D /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				CEE558B51EB8BF4C006D6D0D /* LaunchScreen.storyboard in Resources */,
 				CEE558B21EB8BF4C006D6D0D /* Assets.xcassets in Resources */,
+				CE75B4F61EB9F8D900CD43B7 /* Minecraft.ttf in Resources */,
 				CEE558B01EB8BF4C006D6D0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +520,7 @@
 				CEE558D11EB8BF4C006D6D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE558D21EB8BF4C006D6D0D /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				CEE558D41EB8BF4C006D6D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE558D51EB8BF4C006D6D0D /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				CEE558D71EB8BF4C006D6D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
