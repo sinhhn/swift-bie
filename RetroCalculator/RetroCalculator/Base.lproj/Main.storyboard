@@ -149,6 +149,9 @@
                                                     <constraint firstAttribute="height" constant="56" id="udu-UF-jQP"/>
                                                 </constraints>
                                                 <state key="normal" image="2"/>
+                                                <connections>
+                                                    <action selector="onNumberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3e7-en-rWz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkZ-oF-krM">
                                                 <rect key="frame" x="152" y="0.0" width="58" height="56"/>
